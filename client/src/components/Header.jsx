@@ -66,8 +66,8 @@ const Header = () => {
                                     <Link to={"/"} className='h-full flex justify-center items-center'>
                                         <img 
                                             src={logo}
-                                            width={150}
-                                            height={100}
+                                            width={170}
+                                            height={60}
                                             alt='logo'
                                             className='hidden lg:block'
                                         />

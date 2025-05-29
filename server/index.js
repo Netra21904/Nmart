@@ -19,10 +19,11 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-    origin: 'http://localhost:5173', 
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true,
-  }));
+  origin: 'https://nmart-client.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+}));
+
 // Middleware Setup
 app.use(express.json());
 app.use(cookieParser());
